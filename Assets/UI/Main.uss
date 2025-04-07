@@ -1,0 +1,16 @@
+.Yellow {
+    color: rgb(255, 160, 0);
+}
+
+.HUDBar {
+    background-color: rgba(0, 0, 0, 0.49);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-top: 6px;
+    margin-right: 6px;
+    margin-bottom: 6px;
+    margin-left: 6px;
+    padding-bottom: 10px;
+}

@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Main.uss?fileID=7433441132597879392&amp;guid=9fb5669597dd61440aaf1c665a4e7729&amp;type=3#Main" />
+    <ui:VisualElement name="HUD" style="flex-grow: 1; flex-direction: row; justify-content: space-between; align-content: stretch; height: 100px; min-height: 100px; max-height: 100px; align-self: flex-end; width: 100%; bottom: 0; position: absolute;">
+        <ui:VisualElement name="HealthBar" class="HUDBar" style="flex-grow: 1; height: auto; min-height: auto; max-height: none; align-self: auto; flex-direction: row; bottom: auto; align-items: flex-end; top: auto; position: relative; width: 250px; min-width: 250px; max-width: 250px; align-content: center; justify-content: center;">
+            <ui:Label text="Health" class="Yellow" style="font-size: 20px;" />
+            <ui:Label text="100" name="LabelHealth" class="Yellow" style="font-size: 50px; align-items: auto; align-self: auto; -unity-text-align: lower-center; text-overflow: clip;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="AmmoBar" class="HUDBar" style="flex-grow: 1; height: auto; width: 250px; min-width: 250px; max-width: 250px; flex-direction: row; justify-content: space-around; align-items: auto;">
+            <ui:Label text="Ammo" class="Yellow" style="font-size: 20px;" />
+            <ui:Label text="100" name="LabelAmmo" class="Yellow" style="font-size: 50px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
