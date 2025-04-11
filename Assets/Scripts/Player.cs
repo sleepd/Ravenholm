@@ -23,6 +23,7 @@ public class Player : MonoBehaviour
     private bool isGrounded;
     private Camera mainCamera;
     private Vector3 horizontalVelocity;
+    [SerializeField] private Weapon currentWeapon;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -87,6 +88,8 @@ public class Player : MonoBehaviour
         controller.Move(velocity * Time.deltaTime);
         
         CheckDoorInteraction();
+
+        CheckAttack();
     }
     
     void CheckDoorInteraction()
@@ -105,6 +108,16 @@ public class Player : MonoBehaviour
                 }
             }
         }
+    }
+
+    void CheckAttack()
+    {
+        if (Input.GetKeyDown(KeyCode.Mouse0))
+        {
+            Debug.Log("Attack");
+            currentWeapon.Attack();
+        }
+        
     }
     
     void OnDrawGizmosSelected()
