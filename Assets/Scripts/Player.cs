@@ -1,3 +1,4 @@
+using System.ComponentModel;
 using UnityEngine;
 
 public class Player : MonoBehaviour
@@ -24,6 +25,7 @@ public class Player : MonoBehaviour
     private Camera mainCamera;
     private Vector3 horizontalVelocity;
     [SerializeField] private Weapon currentWeapon;
+    [SerializeField] private GameObject flashlight;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -83,11 +85,16 @@ public class Player : MonoBehaviour
         {
             velocity.y = Mathf.Sqrt(jumpForce * -2f * gravity);
         }
+
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            flashlight.SetActive(!flashlight.activeSelf);
+        }
         
         velocity.y += gravity * gravityScale * Time.deltaTime;
         controller.Move(velocity * Time.deltaTime);
         
-        CheckDoorInteraction();
+        // CheckDoorInteraction();
 
         CheckAttack();
     }
