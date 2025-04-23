@@ -4,10 +4,11 @@ public class Weapon : MonoBehaviour
 {
     [SerializeField] protected Animator animator;
     [SerializeField] protected float attackRate;
+    [SerializeField] protected int damage;
     
     protected float nextAttackTime;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    protected virtual void Start()
     {
         if (animator == null)
         {

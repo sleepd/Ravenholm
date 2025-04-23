@@ -11,4 +11,5 @@
         </ui:VisualElement>
     </ui:VisualElement>
     <ui:VisualElement style="flex-grow: 1; position: absolute; width: 32px; height: 32px; min-width: 32px; max-width: 32px; min-height: 32px; max-height: 32px; align-self: center; top: 50%; bottom: 50%; background-color: rgba(0, 0, 0, 0); background-image: url(&quot;project://database/Assets/Textures/UI/crosshair.png?fileID=2800000&amp;guid=56d56fc7585fa95448c3ca1df8fbdee3&amp;type=3#crosshair&quot;);" />
+    <ui:Label text="Game Infomation" name="LabelInfomation" style="position: absolute; align-self: center; bottom: 20%; color: rgb(255, 255, 255); font-size: 37px; display: none;" />
 </ui:UXML>

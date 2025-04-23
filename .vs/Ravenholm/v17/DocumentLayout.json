@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Work\\BVC\\GAME1401\\Ravenholm\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A1966285-7A10-21EB-155C-CA0D7EA1D924}|Assembly-CSharp.csproj|d:\\work\\bvc\\game1401\\ravenholm\\assets\\scripts\\weapon\\pistol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1966285-7A10-21EB-155C-CA0D7EA1D924}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\weapon\\pistol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1966285-7A10-21EB-155C-CA0D7EA1D924}|Assembly-CSharp.csproj|D:\\Work\\BVC\\GAME1401\\Ravenholm\\assets\\scripts\\weapon\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1966285-7A10-21EB-155C-CA0D7EA1D924}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\weapon\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1966285-7A10-21EB-155C-CA0D7EA1D924}|Assembly-CSharp.csproj|D:\\Work\\BVC\\GAME1401\\Ravenholm\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1966285-7A10-21EB-155C-CA0D7EA1D924}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Weapon.cs",
+              "DocumentMoniker": "D:\\Work\\BVC\\GAME1401\\Ravenholm\\Assets\\Scripts\\Weapon\\Weapon.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Weapon\\Weapon.cs",
+              "ToolTip": "D:\\Work\\BVC\\GAME1401\\Ravenholm\\Assets\\Scripts\\Weapon\\Weapon.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Weapon\\Weapon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T17:57:43.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Pistol.cs",
+              "DocumentMoniker": "D:\\Work\\BVC\\GAME1401\\Ravenholm\\Assets\\Scripts\\Weapon\\Pistol.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Weapon\\Pistol.cs",
+              "ToolTip": "D:\\Work\\BVC\\GAME1401\\Ravenholm\\Assets\\Scripts\\Weapon\\Pistol.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Weapon\\Pistol.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T17:57:45.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Player.cs",
+              "DocumentMoniker": "D:\\Work\\BVC\\GAME1401\\Ravenholm\\Assets\\Scripts\\Player.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player.cs",
+              "ToolTip": "D:\\Work\\BVC\\GAME1401\\Ravenholm\\Assets\\Scripts\\Player.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T17:56:28.087Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

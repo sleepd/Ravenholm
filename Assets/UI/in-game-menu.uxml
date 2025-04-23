@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/ingamemenu.uss?fileID=7433441132597879392&amp;guid=91cc9895bc36416478a5b418f3f75a95&amp;type=3#ingamemenu" />
+    <ui:VisualElement name="Root" style="flex-grow: 1; position: relative; align-items: center; justify-content: center; display: none;">
+        <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.62); width: 400px; height: 400px; min-height: 400px; max-height: 400px; border-top-left-radius: 20px; border-top-right-radius: 20px; border-bottom-right-radius: 20px; border-bottom-left-radius: 20px; justify-content: space-evenly; align-items: stretch;">
+            <ui:Button text="Resume" name="BackBtn" class="Button" />
+            <ui:Button text="Restart from checkpoint" name="RestartBtn" class="Button" />
+            <ui:Button text="Exit to Desktop" name="QuitBtn" class="Button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
